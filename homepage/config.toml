@@ -1,0 +1,223 @@
+################################# Default configuration ###################
+# provide your domain here
+baseURL = "https://ashkanjalaliq.github.io/helli_learn/"
+# theme
+theme = "Dot"
+
+# site title
+#title = "جابر"
+# disable language
+disableLanguages = ["en"]
+defaultContentLanguage = "fa"
+
+# google analytics
+#googleAnalytics = "" # paste your analytics ID here. (Ex: UA-123-45)
+# unsafe html
+[markup.goldmark.renderer]
+unsafe = false
+
+
+############################# Default Parameters ##########################
+[params]
+# logo is for all page
+#logo = "images/Sampad.svg"
+# logo white is for homepage logo, you can use colorful logo too...
+#logo_white = ""
+# when logo is empty, it will shown your site title
+
+# github
+github_link = "https://github.com/ashkanjalaliq/helli_learn"
+
+# latest version
+latest_version = "https://scikit-learn.org/stable/auto_examples/release_highlights/plot_release_highlights_0_24_0.html"
+
+# translate process
+translate_process =  "https://sklearn.ir/translate"
+
+# customize color
+primary_color = "#ff9c34"
+body_color = "#f9f9f9"
+text_color = "#242738"
+text_color_dark = "#242738"
+white_color = "#ffffff"
+light_color = "#f8f9fa"
+
+# font family
+font_family = "Vazir" # Choose font family from : https://fonts.google.com/
+
+# contact form action
+contact_form_action = "mzbjjnev" # contact form works with : https://formspree.io
+
+
+############################## social links ##############################
+[[params.social]]
+icon = "ti-instagram" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+  
+[[params.social]]
+icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
+link = "https://github.com/ashkanjalaliq/helli_learn"
+
+################################ English Language ######################
+# [Languages.en]
+# languageName = "En"
+# languageCode = "en-us"
+# weight = 1
+# copyright = "Copyright © 2020 a Hugo theme by [Gethugothemes](https://gethugothemes.com/)"
+
+# # banner
+# [Languages.en.params.banner]
+# title = "Support Center & Knowledge base"
+# subtitle = "Find advice and answers from our support team fast or get in touch"
+# bg_image = "images/banner.jpg"
+# placeholder = "Have a question? Just ask here or enter terms"
+
+# # call to action
+# [Languages.en.params.cta]
+# enable = true
+# title = "Didn't find an answer to your question?"
+# content = "Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam."
+# # call to action button
+# [Languages.en.params.cta.button]
+# enable = true
+# label = "contact us"
+# link = "contact"
+
+
+################## english navigation #################
+# [[Languages.en.menu.main]]
+# name = "Home"
+# url = "/"
+# weight = 1
+
+# [[Languages.en.menu.main]]
+# name = "Faq"
+# url = "faq"
+# weight = 2
+
+# [[Languages.en.menu.main]]
+# name = "contact"
+# url = "contact"
+# weight = 3
+
+# # Dropdown menu
+# [[Languages.en.menu.main]]
+# weight = 4
+# name = "docs"
+# hasChildren = true
+
+#   [[Languages.en.menu.main]]
+#   parent = "docs"
+#   name = "Installation"
+#   url = "installation"
+#   weight = 1
+
+#   [[Languages.en.menu.main]]
+#   parent = "docs"
+#   name = "Billing and Pricing"
+#   url = "billing-pricing"
+#   weight = 2
+
+#   [[Languages.en.menu.main]]
+#   parent = "docs"
+#   name = "Features"
+#   url = "features"
+#   weight = 3
+
+
+################## farsi navigation #################
+
+[Languages.fa]
+languageName = "Fa"
+languageCode = "fa-ir"
+weight = 1
+#copyright = "تمامی حقوق این وب سایت تحت لایسنس [BSD-3-Clause License](https://github.com/mehrdad-dev/scikit-learn/blob/main/LICENSE) محفوظ است."
+
+# banner
+[Languages.fa.params.banner]
+title = "جابر جایی برای درس خواندن"
+subtitle = ""
+bg_image = "images/banner.jpg"
+placeholder = "به دنبال چیزی می‌گردید؟ بنویسید ..."
+
+# call to action
+[Languages.fa.params.cta]
+enable = false
+title = "پاسخ سوالات خود را پیدا نکردید؟"
+content = "برای اطلاعات بیشتر و پرسیدن سوالات خود در مورد نحوه مشارکت یا غیره ارتباط بگیرید"
+# call to action button
+[Languages.fa.params.cta.button]
+enable = true
+label = "ارتباط با ما"
+link = "contact"
+
+# donate
+[Languages.fa.params.donate]
+enable = false
+title = "حمایت از ما ❤️ "
+content = "اگر به این دست از محتوا ها و کار های آزاد علاقه دارید از  طریق صفحه [حمایت مالی](https://sklearn.ir/donate) از ما حمایت کنید 💸"
+
+
+
+################## farsi navigation #################
+#[[Languages.fa.menu.main]]
+#name = "صفحه اصلی"
+#url = "/"
+#weight = 1
+
+
+#[[Languages.fa.menu.main]]
+#name = "شروع به کار"
+#url = "getting-started"
+#weight = 4
+
+#[[Languages.fa.menu.main]]
+#name = "راهنمای کاربر"
+#url = "user-guide"
+#weight = 5
+
+# Dropdown menu
+#[[Languages.fa.menu.main]]
+#weight = 7
+#name = "بیشتر"
+#hasChildren = true
+
+  #[[Languages.fa.menu.main]]
+  #parent = "بیشتر"
+  #name = "سوالات متداول"
+  #url = "faq"
+  #weight = 1
+
+  #[[Languages.fa.menu.main]]
+  #parent = "بیشتر"
+  #name = "حمایت مالی"
+  #url = "donate"
+  #weight = 2
+
+  #[[Languages.fa.menu.main]]
+  #parent = "بیشتر"
+  #name = "روند ترجمه"
+  #url = "translate"
+  #weight = 3
+
+  #[[Languages.fa.menu.main]]
+  #parent = "بیشتر"
+  #name = "گیت هاب"
+  #url = "https://github.com/mehrdad-dev/scikit-learn"
+  #weight = 4
+
+  #[[Languages.fa.menu.main]]
+  #parent = "بیشتر"
+  #name = "ارتباط با ما"
+  #url = "contact"
+  #weight = 5
+
+  #[[Languages.fa.menu.main]]
+  #parent = "بیشتر"
+  #name = "درباره ما"
+  #url = "about"
+  #weight = 6
