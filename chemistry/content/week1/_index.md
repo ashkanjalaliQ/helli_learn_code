@@ -1,6 +1,6 @@
 +++
 title = "فصل اول"
-date = 2020-09-05T18:30:44+04:30
+date = 2020-09-05T18:30:44+03:30
 weight = 5
 pre = "<i class='fa fa-graduation-cap graduation_cap' ></i>"
 +++

@@ -1,6 +1,6 @@
 ---
 title: "اسطوره-مثال"
 date: 2021-02-14T17:49:21+03:30
-draft: true
+draft: false
 ---
 
